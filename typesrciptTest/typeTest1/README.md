@@ -13,3 +13,9 @@
   -D flag: 라이브러리가 devDependencies로 설치됨
   devDependencies는 개발할 때 필요한 라이브러리를 의미함
   @types/express를 설치하면 express의 정의 파일이 설치됨
+
+ "esModuleInterop": true,
+    // forceConsistentCasingInFileNames 옵션은 TypeScript 컴파일러에서 파일 이름의 대소문자 일관성을 강제로 지정하는 옵션입니다
+    "forceConsistentCasingInFileNames": true,
+    // skipLibCheck .d.ts 타입 정의 파일에서의 검사를 스킵할 것인지 여부를 지정하는 옵션입니다.
+    "skipLibCheck": true
